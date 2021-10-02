@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  height: 50px;
+  background-color: #FF9A4B;
+}
+.main-text{
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  
+}
+.main-box1{
+  width: 300px;
+  background-color: #EEEEEE;
+  margin-right: 30px;
+  padding: 10px 10px;
+  position: relative;
+}
+/* アンサーはmain-boxを一つの要素とし、類似リストを使用している */
+.main-box2{
+  width: 300px;
+  background-color: #EEEEEE;
+  margin-right: 30px;
+  padding: 10px 10px;
+  position: relative;
+}
+.main-box3{
+  width: 300px;
+  background-color: #EEEEEE;
+  padding: 10px 10px;
+  position: relative;
+}
+.step{
+  color: #EEEEEE;
+  background-color: #FF9A4B;
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+
+
+.img1{
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  /* ↑縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: bottom;
+  /* 背景画像をセンターに */
+  
+}
+.img2{
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+
+}
+.img3{
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+h3{
+  padding: 15px 0 5px ;
+}
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: #AAAAAA;
+
+}
+@media screen and (max-width:768px) {
+  .main-text{
+    width: 100%;
+    display: block;
+  }
+  .main-box1{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .main-box2{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .main-box3{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+ 
+}
